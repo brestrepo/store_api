@@ -8,6 +8,7 @@ git clone https://github.com/brestrepo/store_api.git (folder)
 
 - Copy .env.example -> .env and set up Database configuration
 - Install composer (sudo composer install)
+- Generate a key (php artisan key:generate)
 - Run migrations (php artisan migrate)
 
 #Routes
